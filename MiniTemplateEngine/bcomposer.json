@@ -1,0 +1,10 @@
+{
+    "name": "MiniTemplateEngine",
+    "description": "A Mini Template Engine",
+    "require": {
+        "bash": ">=4.1"
+    },
+    "autoload": {
+        "bsr-0": {"": "src/"}
+    }
+}

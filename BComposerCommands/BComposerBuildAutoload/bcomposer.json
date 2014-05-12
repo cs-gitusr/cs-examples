@@ -1,0 +1,12 @@
+{
+    "name": "BComposerCommands/BComposerBuildAutoload",
+    "description": "Build BComposer autoload Command",
+    "require": {
+        "bash": ">=4.1",
+        "BashCore": ">=1.0",
+        "JSONTree": ">=1.0"
+    },
+    "autoload": {
+        "bsr-0": {"": "src/"}
+    }
+}

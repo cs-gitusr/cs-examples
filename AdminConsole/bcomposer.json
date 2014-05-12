@@ -1,0 +1,16 @@
+{
+    "name": "ShellUtils/AdminConsole",
+    "description": "Admin Console",
+    "require": {
+        "bash -v": ">=4.1",
+        "BashCore": ">=1.0",
+        "ConsoleApp": ">=1.0",
+        "AdminConsoleCommands/AdminNewCommand": ">=1.0",
+        "AdminConsoleCommands/EmulatorAndroidX86StartCommand": ">=1.0",
+        "AdminConsoleCommands/VirtualizationMountCommand": ">=1.0",
+        "AdminConsoleCommands/VirtualizationStartCommand": ">=1.0"
+    },
+    "autoload": {
+        "bsr-0": {"": "src/"}
+    }
+}

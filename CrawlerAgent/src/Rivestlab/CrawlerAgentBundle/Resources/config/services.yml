@@ -1,0 +1,7 @@
+parameters:
+#    rivestlab_crawler_agent.example.class: Rivestlab\CrawlerAgentBundle\Example
+
+services:
+#    rivestlab_crawler_agent.example:
+#        class: %rivestlab_crawler_agent.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

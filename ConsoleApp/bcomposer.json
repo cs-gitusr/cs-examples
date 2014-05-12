@@ -1,0 +1,11 @@
+{
+    "name": "ConsoleApp/ConsoleApp",
+    "description": "Bash Core Library",
+    "require": {
+        "bash": ">=4.1",
+        "BashCore": ">=1.0"
+    },
+    "autoload": {
+        "bsr-0": {"": "src/"}
+    }
+}

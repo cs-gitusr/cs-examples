@@ -1,0 +1,11 @@
+{
+    "name": "BComposerCommands/BComposerBuildStandalone",
+    "description": "Build BComposer standalone command",
+    "require": {
+        "bash": ">=4.1",
+        "BashCore": ">=1.0"
+    },
+    "autoload": {
+        "bsr-0": {"": "src/"}
+    }
+}

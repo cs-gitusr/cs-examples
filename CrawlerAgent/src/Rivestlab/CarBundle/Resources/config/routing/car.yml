@@ -1,0 +1,30 @@
+carcrud:
+    pattern:  /
+    defaults: { _controller: "RivestlabCarBundle:Car:index" }
+
+carcrud_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "RivestlabCarBundle:Car:show" }
+
+carcrud_new:
+    pattern:  /new
+    defaults: { _controller: "RivestlabCarBundle:Car:new" }
+
+carcrud_create:
+    pattern:  /create
+    defaults: { _controller: "RivestlabCarBundle:Car:create" }
+    requirements: { _method: post }
+
+carcrud_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "RivestlabCarBundle:Car:edit" }
+
+carcrud_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "RivestlabCarBundle:Car:update" }
+    requirements: { _method: post|put }
+
+carcrud_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "RivestlabCarBundle:Car:delete" }
+    requirements: { _method: post|delete }

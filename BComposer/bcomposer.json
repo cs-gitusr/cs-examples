@@ -1,0 +1,12 @@
+{
+    "name": "BComposer",
+    "description": "Bash Composer-like tool",
+    "require": {
+        "bash": ">=4.1",
+        "ConsoleApp": ">=1.0",
+        "BComposerCommands/BComposerBuildAutoload": ">=1.0",
+        "BComposerCommands/BComposerBuildCache": ">=1.0",
+        "BComposerCommands/BComposerBuildStandalone": ">=1.0",
+        "BComposerCommands/BComposerRepoClean": ">=1.0"
+    }
+}

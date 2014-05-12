@@ -1,0 +1,12 @@
+{
+    "name": "BashUnit",
+    "description": "Bash Unit-Test Library",
+    "require": {
+        "bash": ">=4.1",
+        "BashCore": ">=1.0",
+        "MiniTemplateEngine": ">=1.0"
+    },
+    "autoload": {
+        "bsr-0": {"": "src/"}
+    }
+}

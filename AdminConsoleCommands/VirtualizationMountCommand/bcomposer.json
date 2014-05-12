@@ -1,0 +1,15 @@
+{
+    "name": "AdminConsoleCommands/VirtualizationMountCommand",
+    "description": "Updates header and footer of BashCore Library",
+    "require": {
+        "bash": ">=4.1",
+        "BashCore": ">=1.0",
+        "Virtualization": ">=1.0"
+
+    },
+    "autoload": {
+        "bsr-0": {
+            "": "src/"
+            }
+    }
+}

@@ -1,0 +1,3 @@
+rivestlab_car_homepage:
+    pattern:  /crawleragent/car/{name}
+    defaults: { _controller: RivestlabCarBundle:Default:index }

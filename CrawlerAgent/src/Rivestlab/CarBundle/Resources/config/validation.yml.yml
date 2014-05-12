@@ -1,0 +1,13 @@
+#
+# On html5 the validation is done client side but should be better to 
+# add here to prevent spiders 
+#In other words, the required html5 option is "nice", but true server-side validation should always be
+#used.
+#eg.
+#Acme\TaskBundle\Entity\Task:
+#  properties:
+#    task:
+#      - NotBlank: ~
+#    dueDate:
+#      - NotBlank: ~
+#      - Type: \DateTime
